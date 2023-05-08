@@ -81,7 +81,10 @@ class PredictionResource(Resource):
             if pred:
                 pred_ns.logger.info('prediction retrived from database')
                 pred_ns.logger.info(f"Response: {pred.to_json()}" )
-                return pred.to_json(), 200
+                resp = pred.to_json()
+                if isinstance(resp, str):
+                    resp = json.loads(resp)
+                return resp, 200
 
             # Convert validated request data to CSV format
             pred_ns.logger.info('Map field names to the ML model field names')
