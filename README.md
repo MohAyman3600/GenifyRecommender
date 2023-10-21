@@ -1,6 +1,6 @@
-# Project Title
+# Genify Flask API Integration
 
-Flask API for Machine Learning Model
+Flask API for integrating with a Machine Learning Model and servees to User Interface
 
 ## Description
 
