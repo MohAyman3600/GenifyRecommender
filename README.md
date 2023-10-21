@@ -1,10 +1,10 @@
 # Genify Flask API Integration
 
-Flask API for integrating with a Machine Learning Model and servees to User Interface
+Flask API for integrating with a Machine Learning Model and serves it to the User Interface
 
 ## Description
 
-This is a Flask API that serves a machine learning model. It uses MongoDB as database, marshmallow for schema validation, Flask-RESTful for serialization, Flask-Testing for testing, token authentication, Swaggger for documentation, logging module for logging.
+This is a Flask API that serves a machine-learning model. It uses MongoDB as a database, marshmallow for schema validation, Flask-RESTful for serialization, Flask-Testing for testing, token authentication, Swaggger for documentation, logging module for logging.
 
 ## Installation
 
